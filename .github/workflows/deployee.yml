@@ -1,6 +1,5 @@
-name: NodeJS with Webpack
-
 on:
+      group: ${{ github.workflow }}-${{ github.r
   push:
     branches: ['test']
 
@@ -9,8 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
+    concurrency:ef }}
 
     steps:
       - uses: actions/checkout@v3
