@@ -18,7 +18,7 @@ export interface CardNumberObj {
 
 interface Props {}
 
-export const CardNumber = forwardRef<HTMLDivElement, Props>(({}, ref) => {
+export const CardNumber = forwardRef<HTMLDivElement, Props>((_, ref) => {
   const [cardInput, setCardInput] = useContext(InputValuesContext);
 
   const [cardError, setCardError] = useState({
