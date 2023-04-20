@@ -56,7 +56,7 @@ function CardPassword() {
 
   return (
     <CardPasswordContainer>
-      <FormLabel>{'카드 비밀번호'}</FormLabel>
+      <FormLabel>{'카드 비밀번호 '}</FormLabel>
       <PasswordInputContainer>
         <Input
           data-order="first"
