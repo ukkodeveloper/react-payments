@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ukkodeveloper.github.io/react-payments/static/css/main.e6c13ad2.css",
-    "main.js": "/ukkodeveloper.github.io/react-payments/static/js/main.3cc110ad.js",
-    "static/js/787.15f2ece3.chunk.js": "/ukkodeveloper.github.io/react-payments/static/js/787.15f2ece3.chunk.js",
-    "index.html": "/ukkodeveloper.github.io/react-payments/index.html",
-    "main.e6c13ad2.css.map": "/ukkodeveloper.github.io/react-payments/static/css/main.e6c13ad2.css.map",
-    "main.3cc110ad.js.map": "/ukkodeveloper.github.io/react-payments/static/js/main.3cc110ad.js.map",
-    "787.15f2ece3.chunk.js.map": "/ukkodeveloper.github.io/react-payments/static/js/787.15f2ece3.chunk.js.map"
+    "main.css": "/react-payments/static/css/main.e6c13ad2.css",
+    "main.js": "/react-payments/static/js/main.f25d46ba.js",
+    "static/js/787.15f2ece3.chunk.js": "/react-payments/static/js/787.15f2ece3.chunk.js",
+    "index.html": "/react-payments/index.html",
+    "main.e6c13ad2.css.map": "/react-payments/static/css/main.e6c13ad2.css.map",
+    "main.f25d46ba.js.map": "/react-payments/static/js/main.f25d46ba.js.map",
+    "787.15f2ece3.chunk.js.map": "/react-payments/static/js/787.15f2ece3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.3cc110ad.js"
+    "static/js/main.f25d46ba.js"
   ]
 }
