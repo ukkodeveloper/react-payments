@@ -1,6 +1,8 @@
+name: NodeJS with Webpack
+
 on:
   push:
-    branches: [test]
+    branches: ['test']
 
 jobs:
   deploy:
@@ -16,11 +18,19 @@ jobs:
         with:
           node-version: 18
 
-      - run: |
-          npm ci
-          npm run build
+      - uses: actions/cache@v3
+        id: cache
+        with:
+          path: '**/node_modules'
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      - run: npm ci
+        if: steps.cache.outputs.cache-hit != 'true'
+
+      - run: npm run build
+
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
-          publish_branch: gh-pages
