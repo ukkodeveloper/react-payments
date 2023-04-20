@@ -40,7 +40,8 @@
         ],
         "rules": {
           "import/no-anonymous-default-export": "off",
-          "no-empty-patter": "off"
+          "no-empty-patter": "off",
+          "no-unused-vars": "off"
         }
       }
     ]
